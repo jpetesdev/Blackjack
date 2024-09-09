@@ -1,6 +1,7 @@
 import cards
 import random
 
+##Testing change
 
 # Will be used any time we need to pick a random card.
 def card_selector():
@@ -37,7 +38,7 @@ class Player():
 
 class Dealer(Player):
     hand = [card_selector(), card_selector()]
-    
+
     def __init__(self):
         self._count = 0
         self.name = "Dealer"
