@@ -64,6 +64,7 @@ while round:
         print(player1._count)
     else:
         player1.set_count()
+        print(f"{player} Hand: ")
         print(player1.hand)
         print(player1._count)
     next_card = input("Would you like to HIT or STAND?: ")
